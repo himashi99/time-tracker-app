@@ -1,9 +1,28 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { MyDogs } from './ui/features';
+import { MyDogs, MyCats } from './ui/features';
+
 
 class App extends Component {
+
+  // after a 1 second i want to change the cat food
+
+  // first create some state
+  state = {
+    momsCatFood: 'grose cat beef'
+  }
+
+  // 2 change the state
+  componentDidMount() {
+    setTimeout(() => {
+      this.setState({
+        momsCatFood: 'milk, yumm'
+      })
+    }, 3000);
+  }
+
+
   render() {
     return (
       <div className="App">
@@ -21,7 +40,18 @@ class App extends Component {
             Learn React
           </a>
         </header>
-        <MyDogs />
+
+
+
+        <MyDogs catFood={this.state.momsCatFood}/>
+
+
+
+
+        <MyCats message={'Meow'} />
+
+
+
       </div>
     );
   }
