@@ -19,10 +19,20 @@ export class TimeInput extends React.PureComponent {
 
     render() {
         return (
-            <ul>
+            <ul className="client-list">
                 {
                     this.state.clients.map((client) =>
-                        <li key={client.id}>{client.company}</li>
+                        <div key={client.id}>
+                            <li><h1>{client.company}</h1></li>
+                            {
+                                client.projects.map((project) =>
+                                    <li key={project.id}>{project.name}</li>
+                                )
+                            }     
+                            <br />
+                            <button>Add Project</button>
+                            <input type="text" name="newproject"></input>
+                        </div>
                     )
                 }
             </ul>

@@ -1,79 +1,137 @@
 
-
 {
   "clients": [
     {
       "id": "1",
       "company": "Toronto Luxury Suites",
-      "projects": 
-                {
-                  "1": "Website",
-                  "2": "Social Media",
-                  "3": "Magazine/Print Media",
-                  "4": "Branding",
-                  "5": "Deep Dive"
-                }
+      "projects": [
+        {
+          "id": "1",
+          "name": "Website"
+        },
+        {
+          "id": "2",
+          "name": "Social Media"
+        },
+        {
+          "id": "3",
+          "name": "Magazine/Print Media"
+        },
+        {
+          "id": "4",
+          "name": "Branding"
+        },
+        {
+          "id": "5",
+          "name": "Deep Dive"
+        }
+      ]
     },
     {
       "id": "2",
       "company": "Grace",
-      "projects": 
-                {
-                  "1": "Website",
-                  "2": "Social Media",
-                  "3": "Magazine/Print Media",
-                  "4": "Branding",
-                  "5": "Deep Dive"
-                }
+      "projects": [
+        {
+          "id": "1",
+          "name": "Website"
+        },
+        {
+          "id": "2",
+          "name": "Social Media"
+        },
+        {
+          "id": "3",
+          "name": "Magazine/Print Media"
+        },
+        {
+          "id": "4",
+          "name": "Branding"
+        },
+        {
+          "id": "5",
+          "name": "Deep Dive"
+        }
+      ]
     },
     {
       "id": "3",
       "company": "Motoinsight",
-      "projects": 
-                {
-                  "1": "Website",
-                  "2": "Social Media",
-                  "3": "Magazine/Print Media",
-                  "4": "Branding",
-                  "5": "Deep Dive"
-                }
+      "projects": [
+        {
+          "id": "1",
+          "name": "Website"
+        },
+        {
+          "id": "2",
+          "name": "Social Media"
+        },
+        {
+          "id": "3",
+          "name": "Magazine/Print Media"
+        },
+        {
+          "id": "4",
+          "name": "Branding"
+        },
+        {
+          "id": "5",
+          "name": "Deep Dive"
+        }
+      ]
     },
     {
       "id": "4",
-      "company": "CBRE",
-      "projects": 
-                {
-                  "1": "Website",
-                  "2": "Social Media",
-                  "3": "Magazine/Print Media",
-                  "4": "Branding",
-                  "5": "Deep Dive"
-                }
+      "company": "Glen Duplex Americas",
+      "projects": [
+        {
+          "id": "1",
+          "name": "Website"
+        },
+        {
+          "id": "2",
+          "name": "Social Media"
+        },
+        {
+          "id": "3",
+          "name": "Magazine/Print Media"
+        },
+        {
+          "id": "4",
+          "name": "Branding"
+        },
+        {
+          "id": "5",
+          "name": "Deep Dive"
+        }
+      ]
     },
     {
       "id": "5",
       "company": "Deloitte",
-      "projects": 
-                {
-                  "1": "Website",
-                  "2": "Social Media",
-                  "3": "Magazine/Print Media",
-                  "4": "Branding",
-                  "5": "Deep Dive"
-                }
-    },
-    {
-      "id": "6",
-      "company": "Longevity",
-      "projects": 
-                {
-                  "1": "Website",
-                  "2": "Social Media",
-                  "3": "Magazine/Print Media",
-                  "4": "Branding",
-                  "5": "Deep Dive"
-                }
+      "projects": [
+        {
+          "id": "1",
+          "name": "Website"
+        },
+        {
+          "id": "2",
+          "name": "Social Media"
+        },
+        {
+          "id": "3",
+          "name": "Magazine/Print Media"
+        },
+        {
+          "id": "4",
+          "name": "Branding"
+        },
+        {
+          "id": "5",
+          "name": "Deep Dive"
+        }
+      ]
     }
   ]
 }
 
+    
