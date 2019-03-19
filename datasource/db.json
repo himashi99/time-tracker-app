@@ -7,7 +7,15 @@
       "projects": [
         {
           "id": "1",
-          "name": "Website"
+          "name": "Website",
+          "time": [
+            { "date": "some date", "entry": "1.25" },
+            { "date": "some date", "entry": "1.25" },
+            { "date": "some date", "entry": "1.25" },
+            { "date": "some date", "entry": "1.25" },
+            { "date": "some date", "entry": "1.25" },
+            { "date": "some date", "entry": "1.25" }
+          ]
         },
         {
           "id": "2",
